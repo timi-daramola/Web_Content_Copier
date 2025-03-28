@@ -1,0 +1,42 @@
+.container {
+    display: block;
+    width: 600px;
+    height: 400px;
+    background-color: blueviolet;
+    margin: auto;
+    align-content: center;
+}
+
+#copier {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    border-radius: 10px solid white;
+    cursor: pointer;
+}
+
+#view {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: auto;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    border-radius: 10px solid white;
+    cursor: pointer;
+}
+
+#copier:hover {
+    background-color: grey;
+    color: white;
+    border-radius: 10px solid white;
+}
+
+#view:hover {
+    background-color: grey;
+    color: white;
+}
